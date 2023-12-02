@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_quote_divider_quote_dividers",
+  "info": {
+    "displayName": "QuoteDivider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Quote": {
+      "type": "string",
+      "required": true
+    },
+    "BackgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "GlassOverlayTransparency": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

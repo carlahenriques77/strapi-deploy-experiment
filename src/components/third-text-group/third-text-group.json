@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_third_text_group_third_text_groups",
+  "info": {
+    "displayName": "ThirdTextGroup",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "IllustrationImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "blocks",
+      "required": true
+    },
+    "ImageAlternativeTextForAccesibility": {
+      "type": "string",
+      "required": true
+    },
+    "AttributionIfAny": {
+      "type": "string"
+    },
+    "SourceLinkIfAny": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_first_text_group_first_text_groups",
+  "info": {
+    "displayName": "FirstTextGroup",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "blocks",
+      "required": true
+    }
+  }
+}

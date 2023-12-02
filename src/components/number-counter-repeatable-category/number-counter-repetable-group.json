@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_number_counter_repeatable_category_number_counter_repetable_groups",
+  "info": {
+    "displayName": "NumberCounterRepetableGroup",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "CounterAmount": {
+      "type": "integer",
+      "required": true
+    },
+    "CounterSubtitle": {
+      "type": "string",
+      "required": true
+    },
+    "DurationInSeconds": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

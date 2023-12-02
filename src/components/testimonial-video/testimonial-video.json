@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_testimonial_video_testimonial_videos",
+  "info": {
+    "displayName": "TestimonialVideo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "MP4Video": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "WebmVideo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "AttributionIfAny": {
+      "type": "string"
+    },
+    "SourceLinkIfAny": {
+      "type": "string"
+    }
+  }
+}

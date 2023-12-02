@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_long_text_homepage_long_text_homepages",
+  "info": {
+    "displayName": "LongTextHomepage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "FirstTextGroup": {
+      "displayName": "FirstTextGroup",
+      "type": "component",
+      "repeatable": false,
+      "component": "first-text-group.first-text-group",
+      "required": true
+    },
+    "SecondTextGroup": {
+      "displayName": "SecondTextGroup",
+      "type": "component",
+      "repeatable": false,
+      "component": "second-text-group.second-text-group",
+      "required": true
+    },
+    "ThirdTextGroup": {
+      "displayName": "ThirdTextGroup",
+      "type": "component",
+      "repeatable": false,
+      "component": "third-text-group.third-text-group"
+    }
+  }
+}

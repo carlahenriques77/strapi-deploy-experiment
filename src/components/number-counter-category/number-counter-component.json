@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_number_counter_category_number_counter_components",
+  "info": {
+    "displayName": "NumberCounterComponent",
+    "icon": "plus",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "NumberCounterRepetable": {
+      "displayName": "NumberCounterRepetableGroup",
+      "type": "component",
+      "repeatable": true,
+      "component": "number-counter-repeatable-category.number-counter-repetable-group"
+    },
+    "CounterBackgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "GlassOverlayTransparency": {
+      "type": "integer",
+      "required": true
+    },
+    "ImageSize": {
+      "type": "enumeration",
+      "enum": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "required": true,
+      "default": "small"
+    }
+  }
+}

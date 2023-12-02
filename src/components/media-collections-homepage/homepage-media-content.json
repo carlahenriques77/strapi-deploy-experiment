@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_media_collections_homepage_homepage_media_contents",
+  "info": {
+    "displayName": "HomepageMediaContent",
+    "icon": "landscape"
+  },
+  "options": {},
+  "attributes": {
+    "HeroVideosFormats": {
+      "displayName": "HeroSectionVideoFormatAndAttributions",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage-videos-hero-section.hero-section-video-formats"
+    }
+  }
+}

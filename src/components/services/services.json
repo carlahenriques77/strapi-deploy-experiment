@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_services_services",
+  "info": {
+    "displayName": "Services",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "ImageAttributionIfAny": {
+      "type": "string"
+    },
+    "ImageSourceIfAny": {
+      "type": "string"
+    },
+    "ImageAlternativeTextForAccesibility": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

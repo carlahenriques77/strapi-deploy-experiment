@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_frequently_asked_questions_frequently_asked_questions",
+  "info": {
+    "displayName": "FrequentlyAskedQuestions",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "QuestionsAndAnswers": {
+      "displayName": "QuestionsAndAnswers",
+      "type": "component",
+      "repeatable": true,
+      "component": "questions-and-answers.questions-and-answers",
+      "required": true
+    },
+    "SectionTitle": {
+      "type": "string",
+      "required": true
+    },
+    "ContactUsText": {
+      "type": "string",
+      "required": true
+    },
+    "ContactUsLinkOutlinedText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

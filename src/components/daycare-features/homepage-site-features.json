@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_daycare_features_homepage_site_features",
+  "info": {
+    "displayName": "HomepageSiteFeatures"
+  },
+  "options": {},
+  "attributes": {
+    "FeaturesRepetable": {
+      "displayName": "FeaturesRepetable",
+      "type": "component",
+      "repeatable": true,
+      "component": "daycare-features.features-repetable"
+    }
+  }
+}

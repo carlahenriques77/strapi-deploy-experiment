@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_home_testimonials_home_testimonials",
+  "info": {
+    "displayName": "HomeTestimonials",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "blocks",
+      "required": true
+    },
+    "TestimonialVideoFormats": {
+      "displayName": "TestimonialVideo",
+      "type": "component",
+      "repeatable": false,
+      "component": "testimonial-video.testimonial-video",
+      "required": true
+    },
+    "VideoThumbnail": {
+      "displayName": "VideoThumbnail",
+      "type": "component",
+      "repeatable": false,
+      "component": "video-thumbnail.video-thumbnail"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_homepage_videos_hero_section_hero_section_video_formats",
+  "info": {
+    "displayName": "HeroSectionVideoFormatAndAttributions",
+    "icon": "star",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "MP4VideoForTheHeroSection": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["videos"]
+    },
+    "WebmVideoForTheHeroSection": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["videos"]
+    },
+    "VideoAttributionIfAny": {
+      "type": "string"
+    },
+    "VideoSourceLinkIfAny": {
+      "type": "string"
+    }
+  }
+}

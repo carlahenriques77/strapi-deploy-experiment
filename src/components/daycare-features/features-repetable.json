@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_daycare_features_features_repetables",
+  "info": {
+    "displayName": "FeaturesRepetable",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "FeatureTitle": {
+      "type": "string",
+      "required": true,
+      "maxLength": 18,
+      "minLength": 3
+    },
+    "FeatureIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "FeatureDescription": {
+      "type": "text",
+      "required": true
+    },
+    "ImageAlternativeTextForAccesibility": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

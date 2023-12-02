@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_footer_socials_footer_socials",
+  "info": {
+    "displayName": "FooterSocials",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SocialsRepeatable": {
+      "displayName": "SocialsRepeatable",
+      "type": "component",
+      "repeatable": true,
+      "component": "socials-repeatable.socials-repeatable",
+      "required": true
+    },
+    "CopyrightText": {
+      "type": "blocks",
+      "required": true
+    }
+  }
+}

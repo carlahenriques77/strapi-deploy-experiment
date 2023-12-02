@@ -1,0 +1,82 @@
+{
+  "kind": "singleType",
+  "collectionName": "content_medias",
+  "info": {
+    "singularName": "content-media",
+    "pluralName": "content-medias",
+    "displayName": "HomepageContent",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeroSection": {
+      "displayName": "HomepageMediaContent",
+      "type": "component",
+      "repeatable": false,
+      "component": "media-collections-homepage.homepage-media-content"
+    },
+    "SiteFeatures": {
+      "displayName": "HomepageSiteFeatures",
+      "type": "component",
+      "repeatable": false,
+      "component": "daycare-features.homepage-site-features"
+    },
+    "NumberCounter": {
+      "displayName": "NumberCounterComponent",
+      "type": "component",
+      "repeatable": false,
+      "component": "number-counter-category.number-counter-component"
+    },
+    "LongTextDescription": {
+      "displayName": "LongTextHomepage",
+      "type": "component",
+      "repeatable": false,
+      "component": "long-text-homepage.long-text-homepage"
+    },
+    "Testimonials": {
+      "displayName": "HomeTestimonials",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-testimonials.home-testimonials",
+      "required": true
+    },
+    "ServicesSection": {
+      "displayName": "ServicesSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "services-section.services-section",
+      "required": true
+    },
+    "BookNowCallToAction": {
+      "displayName": "BookNowCallToAction",
+      "type": "component",
+      "repeatable": false,
+      "component": "book-now-call-to-action.book-now-call-to-action",
+      "required": true
+    },
+    "QuoteDivider": {
+      "displayName": "QuoteDivider",
+      "type": "component",
+      "repeatable": false,
+      "component": "quote-divider.quote-divider",
+      "required": true
+    },
+    "FrequentlyAskedQuestions": {
+      "displayName": "FrequentlyAskedQuestions",
+      "type": "component",
+      "repeatable": false,
+      "component": "frequently-asked-questions.frequently-asked-questions",
+      "required": true
+    },
+    "JoinUs": {
+      "displayName": "JoinUs",
+      "type": "component",
+      "repeatable": false,
+      "component": "join-us.join-us",
+      "required": true
+    }
+  }
+}

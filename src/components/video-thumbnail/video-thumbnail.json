@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_video_thumbnail_video_thumbnails",
+  "info": {
+    "displayName": "VideoThumbnail"
+  },
+  "options": {},
+  "attributes": {
+    "ThumbnailOptional": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "AttributionIfAny": {
+      "type": "string"
+    },
+    "SourceLinkIfAny": {
+      "type": "string"
+    }
+  }
+}
